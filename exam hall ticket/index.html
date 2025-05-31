@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Hall Ticket</title>
+    <style>
+        *{
+            margin: 5px;
+            padding: 5px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #000;
+            width: 60%;
+            margin: auto;
+            position: relative;
+        }
+        .ticket {
+            padding: 20px;
+            border: 2px dashed #000;
+            position: relative;
+        }
+        .ticket h2 {
+            margin: 0;
+        }
+        .details {
+            text-align: left;
+            margin-top: 20px;
+            position: relative;
+        }
+        .photo {
+            position: absolute;
+            top: 0;
+            right: 0;
+            border: 1px solid #000;
+            width: 100px;
+            height: 100px;
+        }
+        .photo-signature {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .photo-signature img {
+            width: 100px;
+            height: 50px;
+            border: 1px solid #000;
+        }
+        .subject-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .subject-table, .subject-table th, .subject-table td {
+            border: 1px solid black;
+        }
+        .subject-table th, .subject-table td {
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket">
+        <h2>Mysore University School Of Engineering</h2>
+        <h3>Examination Hallticket</h3>
+        <hr>
+        <div class="details">
+            <img class="photo" src="yashu.jpg" alt="Student Photo">
+            <p><strong>Student Name:</strong> Tasmiya Taj/p>
+            <p><strong>Age:</strong> 20</p>
+            <p><strong>Gender:</strong> Female</p>
+            <p><strong>Roll Number:</strong> 22SECD97</p>
+            <p><strong>College:</strong> Mysore Univarsity School Of Engineering</p>
+            <p><strong>Branch:</strong> Computer Science and Design</p>
+            <p><strong>Semester:</strong> 5th</p>
+            <p><strong>Exam Time:</strong> 10:00 AM - 1:00 PM</p>
+            <p><strong>Venue:</strong> G12 2nd year Block, Mysore Univarsity School Of Engineering</p>
+        </div>
+        <table class="subject-table">
+            <tr>
+                <th>Subject</th>
+                <th>Date</th>
+                <th>Timings</th>
+                <th>Invigilator's Signature</th>
+            </tr>
+            <tr>
+                <td>Management and Enterpreneurship</td>
+                <td>1st March 2025</td>
+                <td>10:00 AM - 1:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Programming in Java</td>
+                <td>3rd March 2025</td>
+                <td>10:00 AM - 1:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Database Management System</td>
+                <td>5th March 2025</td>
+                <td>10:00 AM - 1:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Automata Theory</td>
+                <td>7th March 2025</td>
+                <td>10:00 AM - 1:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Principles of Computer Systen and Design</td>
+                <td>9th March 2025</td>
+                <td>10:00 AM - 1:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Web Technology</td>
+                <td>10th March 2025</td>
+                <td>10:00 AM - 1:00 PM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Smart Cities and Planning</td>
+                <td>12th March 2025</td>
+                <td>10:00 AM - 1:00 PM</td>
+                <td></td>
+            </tr>
+        </table>
+        <div class="photo-signature">
+            <div>
+                <p><strong>Principal Signature:</strong></p>
+       
+            </div>
+            <div>
+                <p><strong>HOD Signature:</strong></p>
+         
+            </div>
+            <div>
+                <p><strong>Student Signature:</strong></p>
+             
+            </div>
+        </div>
+    </div>
+</body>
+</html>
